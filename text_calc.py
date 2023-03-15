@@ -37,5 +37,5 @@ def calculator(input_list):
     return eval(input_line)
 
 
-listed_line = checker(input('Введите строку выражения: ').split())
+listed_line = checker(input('Введите строку выражения(например 2 + 2 * 5): ').split())
 print(calculator(listed_line))
